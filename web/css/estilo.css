@@ -1,0 +1,446 @@
+body {
+    text-align:center;
+    margin:0 auto;
+    font-size: 62.5%; 
+    background-color: #F5F5F5;
+}
+
+#contenedor
+{
+    width:820px;
+    height: 1200px; 
+    margin:0 auto;
+    border:0;
+    line-height:130%;
+    text-align: left;
+    font-size : 1.1em; /* Para saber de donde sale esto, ver http://www.cosassencillas.com/articulos/pixeles-ems-tamano-letra-css */
+    font-family: Verdana, Arial, Helvetica, sans-serif; /*estilo de letra por defecto*/
+    background-color: #ffffff;
+    padding-top: 20px;   
+}
+
+#cabecera {
+    padding: 20px 6px 20px 6px;
+    margin: 0px 5px 0px 5px;
+    background-color: #E60013;
+    color: #ffffff;
+}
+
+#cabecera h1, h2 {
+    font-size : 1.7em;
+    margin: 0px 0px 0px 0px;
+}
+
+#cabecera a{
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+/*--------------Menu----------------*/
+#divmenu {
+    height: 25px;
+    width: auto;
+    margin: 10px 5px 10px 5px;
+}
+
+#menu {
+    margin:0; 
+    padding:0; 
+    list-style:none;
+}
+
+#menu li {
+    float:left;
+    width: 162px; 
+    position:relative;
+}
+
+#menu li a {
+    background: #E60013; 
+    color: white;
+    display:block;      
+    padding:8px 7px 8px 7px; 
+    text-decoration:none; 
+    border: 1px solid white;
+    text-align:center;
+}
+
+#menu li a:hover {
+    background-color: maroon;
+}
+
+#menu ul {
+    position:absolute; 
+    left:0; 
+    display:none;
+    margin:0 0 0 -1px; 
+    padding:0; 
+    list-style:none;
+    border-bottom: 1px solid white;
+}
+
+#menu ul li {
+    width: available; 
+    float:left; 
+    border-top:none;
+}
+
+#menu ul a {
+    display:block;
+    height:15px;
+    padding:12px 7px 25px 7px; 
+    color: white;
+    text-decoration:none;   
+    border-top:none;
+    border-bottom: 1px dashed white;
+}
+
+#menu ul a:hover {
+    background-color: maroon;
+}
+
+
+/*-- Layuout--*/
+#divMensaje {
+    margin: 20px;
+    border: 1px solid #990033;
+    background-color: #f4f4f4;
+    padding: 8px;
+    color: #990033;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#divContenido {
+    margin: 0px 20px 10px 20px;
+    border: 1px solid #C0C0C0;
+    background-color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+
+/*------------Login--------------*/
+#divLogeo {
+    display:inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align:center;
+}
+
+#divCrearUsuario {
+    height: 130px;
+    width: 100px;
+    padding-top: 10px;
+    margin-left: 240px;
+    text-align: left;
+}
+
+
+/*------------------- Formulario ----------------*/
+.solicitud_requerid {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.form_requerid {
+    display:inline-block;
+    height: 22px;
+}
+
+.form_requerid_textarea {
+    display:inline-block;
+    width: 290px;
+}
+
+.camp_text {
+    width: 300px;
+}
+
+#perfil, #mod_perfil {
+    width: 290px;
+    height: 30px;
+}
+
+#cantidad, #cantidad2 {
+    width: 25px;
+}
+
+#enviar_orden, #crear_usuario, #cambiar_datos, #enviar, #crear_usuario_nuevo, #agregar {
+    width: 120px;
+    height: 30px;
+    margin: 15px 30px;
+}
+
+#form {
+    display:inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align:center;
+    border: 1px solid #C0C0C0;
+}
+
+#divTabla {
+    width: 100%;
+    margin: 20px auto;
+}
+
+#divModificacion {
+    display:inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align:center;
+    border: 1px solid #C0C0C0;
+}
+
+#divDialogModificacion #divModificacion .divBotonMod {
+    padding: 20px;
+}
+
+#divVisualizacion {
+    display:inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align:center;
+    border: 1px solid #C0C0C0;
+}
+
+#divDialogVisualizacion #divVisualizacion .divBotonMod {
+    padding: 20px;
+}
+
+#divVisualizacion2 {
+    display:inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align:center;
+    border: 1px solid #C0C0C0;
+}
+
+#divDialogVisualizacion2 #divVisualizacion2 .divBotonMod {
+    padding: 20px;
+}
+
+#divSolicitud {
+    display:inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align:center;
+    border: 1px solid #C0C0C0;
+}
+
+#divDialogSolicitud #divSolicitud {
+    padding: 20px;
+}
+
+
+
+/*--------------Consultas y modificacion------------------*/
+
+#divBusqueda {
+    padding: 5px 5px;
+    border: 1px solid #C0C0C0;
+    text-align: left;
+}
+
+#divLabelConsulta2 {
+    display: inline-block;
+    width: 200px;
+    height: 25px;
+    text-align: left;
+}
+
+#divLabelConsulta3 {
+    display: inline-block;
+    width: 200px;
+    height: 25px;
+    text-align: left;
+}
+
+#divLabelConsulta {
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    text-align: left;
+}
+
+#divTextConsulta {
+    display: inline-block;uj
+    width: 280px;
+    height: 25px;
+    text-align: left;
+}
+
+#divSelectConsulta {
+    display: inline-block;
+    width: 235px;
+    height: 25px;
+}
+
+#novedad {
+    width: 230px;
+}
+
+#divFechaConsulta {
+    display: inline-block;
+    width: 230px;
+    height: 25px;
+    text-align: left;
+}
+
+#searchFecha {
+    display: inline-block;
+    width: 215px;
+    height: 18px;
+}
+
+#searchFechaInicial {
+    display: inline-block;
+    width: 215px;
+    height: 18px;
+}
+
+#searchFechaFinal {
+    display: inline-block;
+    width: 215px;
+    height: 18px;
+}
+
+#campusSearch, #espacioSearch, #sistemaSearch, #edificioSearch, #selectSistema {
+    display: inline-block;
+    width: 230px;
+    text-align: left;
+}
+
+#divBotonConsulta {  
+    display: inline-block;
+    width: 70px;
+    height: 25px;
+    text-align: center;
+}
+
+#divOpciones {
+    margin-top: 20px;
+    border: 1px solid #C0C0C0;   
+    text-align:right;
+}
+
+.divBotonOpcion {
+    display: inline-block;
+    width: 100px;
+    height: 25px;  
+    background-color: #E0E0E0;
+    text-align: center;
+}
+
+
+/*------------Ubicacion de elementos del formulario------------------*/
+
+#divRegistrar {
+    width: 200px;
+    height: 200px;
+    text-align: center;  
+    border: 1px solid #DCDCDC;    
+}
+
+.label, .divSelect{
+    width: 455px;
+    height: 25px;
+    padding: 5px;
+    margin: 5px auto;
+}
+
+.label {
+    border: 1px solid #DCDCDC;    
+}
+
+#selectEstado, #selectSistemaM {
+    width: 295px;
+    height: 30px;
+}
+
+#campus, #edificio, #piso, #descripcion, #descripcion2 {
+    width: 290px;
+}
+
+#Otros{
+    width: 335px;
+}
+
+.labelText {
+    border: 1px solid #DCDCDC;
+    width: 180px;
+    height: 25px;
+    padding: 5px;
+    margin: 10px auto;    
+}
+
+/*-------------------------------------------------*/
+
+.divLabelTitulo {
+    border: 1px solid #DCDCDC;
+    margin-top: 30px;    
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*------------------------------------------------*/
+
+#divElementosARegistrar {
+    border: 1px solid #DCDCDC;
+    margin-top: 5px;    
+}
+
+
+/*-----------------usuarios----------------------*/
+
+#divCrearNuevoUsuario, #divCambiarDatos {
+    display:inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align:center;
+    border: 1px solid #C0C0C0;    
+}
+
+table, td {
+    width: 310px;
+    text-align: left;
+    font-size : 1em;
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+/*Responsive Design definicion de las media queries*/
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) { }
+ 
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { }
+ 
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { }
+ 
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) { }
+ 
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) { }
+ 

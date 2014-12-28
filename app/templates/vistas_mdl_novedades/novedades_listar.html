@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<div id="divBusqueda">
+    <div class="solicitud_requerid">Campos obligatorios (<font color="red">*</font>) </div>
+    <br>
+
+    <div id="divLabelConsulta"><font color="red">*</font>Nombre novedad:</div>
+
+    <div id="divTextConsulta">
+        <input type="text" id="novedad" title="Ingrese la novedad" placeholder="Ingrese la novedad" />
+    </div>
+
+    <br>
+    <div id="divLabelConsulta"><font color="red">*</font>Sistema:</div>
+    <div id="divSelectConsulta">
+            <select name="selectSistema" id="selectSistema">
+                <option value="0">Seleccionar</option>
+                <option value="1">Sistema hidráulico y sanitario</option>
+                <option value="2">Sistema Eléctrico</option>
+                <option value="3">Sistema Planta Física</option>
+                <option value="4">Sistema Mobiliario y Equipos</option> 
+            </select>            
+        </div>     
+
+</div>
+
+<div id="divDialogModificacion">
+    
+    <div id="divModificacion">
+        <div class="solicitud_requerid"><b>Información de la Novedad del Sistema</b></div>
+         <div class="solicitud_requerid">Campos obligatorios (<font color="red">*</font>) </div>
+        <div class="solicitud_requerid">Código de la Novedad: </div>
+        <div id="campNumeroNovedad">
+        </div>        
+        
+        <div class="solicitud_requerid"><font color="red">*</font>Nuevo nombre de la novedad: </div>
+        <div class="form_requerid">
+            <input class="camp_text" type="text" name="nombre" id="nombre" value="" />
+        </div>
+
+        <div class="solicitud_requerid">Sistema actual: </div>
+        <div class="form_requerid">
+            <input class="camp_text" type="text" name="sistema" id="sistema" value="" readonly />
+        </div>
+
+        <div class="solicitud_requerid"><font color="red">*</font>Nuevo sistema: </div>
+        <div class="form_requerid">
+            <select name="selectSistemaM" id="selectSistemaM">
+                <option value="Seleccionar">Seleccionar</option>
+                <option value="1">Sistema hidráulico y sanitario</option>
+                <option value="2">Sistema Eléctrico</option>
+                <option value="3">Sistema Planta Física</option>
+                <option value="4">Sistema Mobiliario y Equipos</option> 
+            </select>            
+        </div>        
+
+        <div class="divBotonMod">
+            <button id="btGuardarModNovedad">Actualizar Novedad</button>        
+        </div> 
+        
+    </div>
+    
+</div>
+
+<div id="divOpciones">
+
+    <div class="divBotonOpcion">
+        <button id="crearNovedad">Crear</button>        
+    </div>
+
+    <div class="divBotonOpcion">
+        <button id="buscarNovedad">Buscar</button>        
+    </div>  
+
+    <div class="divBotonOpcion">
+        <button id="modificarNovedad">Modificar</button>        
+    </div>
+    
+</div>
+
+<div id="divTabla">
+    <table class="tablaDeNovedades" id="tablaNovedades" >             
+        <thead>
+            <tr> 
+                <th></th>
+                <th>código</th> 
+                <th>nombre</th>
+                <th>nombre Sistema</th>
+                <th>Código Sistema</th> 
+                <th>Fecha</th>
+            </tr> 
+        </thead> 
+        <tbody>  
+        </tbody> 
+    </table>
+</div>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Novedades</title>
+        <meta http-equiv="Content-Type">
+        <meta content="text/html">
+        <meta charset="utf-8">
+        <meta name="Keywords" content="html,css,javaScript">
+        <meta name="description" content="layout del home de la aplicacion">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui.css"/>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+        <link rel="stylesheet" type="text/css" href="css/ui.jqgrid.css">
+        <link href='images/univalle.png' rel='shortcut icon' type='image/png'>
+        <script type="text/javascript" src="js/plugins/jquery.js"></script>        
+        <script type="text/javascript" src="js/plugins/jquery-ui.js"></script>  
+        <script type="text/javascript" src="js/plugins/grid.locale-es.js"></script> 
+        <script type="text/javascript" src="js/plugins/jquery.jqGrid.min.js"></script>
+        <script type="text/javascript" src="js/global_functions.js"></script>
+        
+        {librerias_adicionales}
+        
+    </head>
+    <body>
+        <!-- Div del contenedor -->
+        <div id="contenedor">
+            <!-- div del logo -->
+          
+            <!-- fin del div logo -->
+
+            <!-- div del header href="index.php?action=iniciar_sesion"-->        
+            <div id="cabecera">
+                <a class="enlaceCabecera" href="index.php?action=iniciar_sesion">
+                    <h1>Gestión de las novedades del sistema</h1>
+                </a>
+            </div>
+            <!-- fin del div del header -->
+
+            <!-- div de mensajes -->
+            <div id="divMensaje">
+                {mensaje}
+            </div>
+            <!-- fin del div del mensaje-->
+            
+            <!-- div de contenidos -->
+            <div id="divContenido">
+                {contenido}
+            </div>
+            <!--fin del div de contenidos -->
+        </div> 
+        <!-- fin del contenedor-->
+    </body>
+    <div id="footer">
+        <span><br>2014</span>
+    </div>
+</html>
